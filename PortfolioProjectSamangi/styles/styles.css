@@ -82,6 +82,8 @@
   padding: 10px 35px;
   background-color: transparent;
   border: 1px solid white;
+  /*  */
+  color: rgb(11, 4, 4);
   color: white;
   outline: none;
   transition: 0.6s ease;
@@ -95,13 +97,64 @@
   font-weight: bold;
 }
 
-#about{
-
+#about {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
-#pic{
-
+#pic {
   display: flex;
+}
+
+#pic img {
+  width: 575px;
+  height: 400px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(0, 132, 255, 0.308);
+  color: white;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.input {
+  padding: 12px;
+  margin: 15px;
+  width: 30%;
+  border: none;
+  outline: none;
+}
+
+#msg {
+  width: 20%;
+  padding: 10px;
+  margin: 15px;
+  border: none;
+  outline: none;
 }
