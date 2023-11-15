@@ -38,9 +38,11 @@ html {
 }
 
 .navbar ul li a:hover {
-  background-color: rgba(0, 132, 255);
+ /*  background-color: rgba(0, 132, 255); */
+ background-color: white;
   color: black;
-  box-shadow: 0 0 10px white;
+  /* box-shadow: 0 0 10px white; */
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
 }
 
 #home {
@@ -90,6 +92,7 @@ margin-bottom: 60px;
   font-family: sans-serif;
   font-size: 3rem;
   text-align: center;
+  color: white;
   /* margin: 40px 0px; */
   margin-bottom: 0px;
 }
@@ -117,17 +120,19 @@ margin-bottom: 60px;
 
 #about {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   box-sizing: border-box;
+  background-color: rgba(0, 132, 255, 0.308);
+  color: white;
   padding: 20px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
-#pic {
+/* #pic {
   display: flex;
-}
+} */
 
-#pic img {
+.pic {
   width: 575px;
   height: 400px;
 }
@@ -136,7 +141,17 @@ margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   text-align: justify;
-  padding: 10px;
+  color: black;
+  padding: 20px;
+  align-content: start;
+  margin-right: 30px;
+ 
+}
+
+
+#intro p{
+
+  margin-top: 30px;
 }
 
 /* #intro h2 {
@@ -189,7 +204,9 @@ margin-bottom: 60px;
 
 #send:hover {
   cursor: pointer;
-  box-shadow: 0 0 10px white;
+  /* box-shadow: 0 0 10px white; */
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+  font-weight: bold;
 }
 
 
@@ -198,6 +215,18 @@ margin-bottom: 60px;
   width: 50%;
   height: 100%;
   
+}
+
+
+#projects{
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(0, 132, 255, 0.308);
+  padding: 20px;
+  color: white; 
+ 
 }
 
 /* .home {
