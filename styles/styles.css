@@ -8,7 +8,7 @@
 
 :root {
   /* --background:rgb(67, 127, 179); */
-  --background:rgb(46, 96, 139);
+  --background:rgb(88, 165, 223);
 }
 
 html {
@@ -19,7 +19,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 132, 255, 0.308);
+  background-color:  rgba(5,118,223,0.75);
   position: sticky;
   top: 0;
 }
@@ -66,18 +66,7 @@ html {
   color: white;
 }
 
-/* #home::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: url("img1.jpg") no repeat center center/cover;
-  height: 900px;
-  width: 100%;s
-  z-index: -1;
-  opacity: 0.8;
-}
- */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -148,18 +137,33 @@ margin-bottom: 60px;
 } */
 
 .pic {
-  width: 575px;
+ /*  width: 575px; */
   height: 400px;
+  
+  /* margin-top: 30px; */
+  margin-top: 8px;
+ 
+}
+
+.aboutContainer{
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
 }
 
 #intro {
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  align-items: center;
+  justify-content: center;
   color: black;
   padding: 20px;
-  align-content: start;
+  padding-top: 0;
+ 
   margin-right: 30px;
+  width:100%;
  
 }
 
@@ -167,6 +171,9 @@ margin-bottom: 60px;
 #intro p{
 
   margin-top: 30px;
+  width: 50%;
+  text-align: center;
+
 }
 
 /* #intro h2 {
@@ -241,14 +248,18 @@ margin-bottom: 60px;
   background-color: rgba(0, 132, 255, 0.308);
   padding: 20px;
   color: white; 
+  
  
 }
 
-/* .home {
 
-  display: flex;
-  justify-content: flex-start;
-  align-items: start;
-  align-content: start;
-}
- */
+
+
+ .introParagraph{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:400px;
+  
+ }

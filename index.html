@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
-  <body>
+  <body id="home">
     <nav class="navbar">
       
       <ul>
@@ -17,33 +17,35 @@
       </ul>
     </nav>
 
-    <section id="home" class="home">
+    <section  class="home">
       <img  class="heroimg" src="img1.jpg" alt="" />
       <div class="main">
         <h1 class="headings">
           Hi, I'm Samangi <br />
         </h1>
           <h3 class="home_subtitle">Aspiring Web Developer</h3>
-        <button class="btn">Get In Touch</button>
+        <button onClick="getInTouch()" class="btn">Get In Touch</button>
       </div>
     </section>
 
     <section id="about">
-      
-          <div id="intro">
-          <h1 class="headings">ABOUT ME</h1>
-         
-          <p>
-            With a master's degree in Information and Communication Technology,
-            I have more than 3 years of experience in manual and automated
-            testing, as well as some experience in frontend development with
-            HTML, CSS and JavaScript, and want to contribute to software
-            development. I am a continuous learner, and naturally motivated to
-            seek new challenges.
-          </p>
+      <div class="aboutContainer">
+        <div id="intro">
+        <h1 class="headings">ABOUT ME</h1>
+       
+        <p class="introParagraph">
+          With a master's degree in Information and Communication Technology,
+          I have more than 3 years of experience in manual and automated
+          testing, as well as some experience in frontend development with
+          HTML, CSS and JavaScript, and want to contribute to software
+          development. I am a continuous learner, and naturally motivated to
+          seek new challenges.
+        </p>
+        
+      </div>
+      <img class="pic" src="img2.png" alt="" />
+    </div>
           
-        </div>
-        <img class="pic" src="img2.png" alt="" />
       
     </section>
 
