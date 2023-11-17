@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
-  <body id="home">
-    <nav class="navbar">
-      
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
 
-    <section  class="home">
-      <img  class="heroimg" src="img1.jpg" alt="" />
-      <div class="main">
-        <h1 class="headings">
-          Hi, I'm Samangi <br />
-        </h1>
-          <h3 class="home_subtitle">Aspiring Web Developer</h3>
-        <button onClick="getInTouch()" class="btn">Get In Touch</button>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
 
-    <section id="about">
-      <div class="aboutContainer">
-        <div id="intro">
+<body id="home">
+  <nav class="navbar">
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="home">
+    <img class="heroimg" src="img1.jpg" alt="" />
+    <div class="main">
+      <h1 class="headings">
+        Hi, I'm Samangi <br />
+      </h1>
+      <h3 class="home_subtitle">Aspiring Web Developer</h3>
+      <button onClick="getInTouch()" class="btn">Get In Touch</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="aboutContainer">
+      <div id="intro">
         <h1 class="headings">ABOUT ME</h1>
-       
+
         <p class="introParagraph">
           With a master's degree in Information and Communication Technology,
           I have more than 3 years of experience in manual and automated
@@ -41,45 +43,44 @@
           development. I am a continuous learner, and naturally motivated to
           seek new challenges.
         </p>
-        
+
       </div>
       <img class="pic" src="img2.png" alt="" />
     </div>
-          
-      
-    </section>
+  </section>
 
-    <section id="projects">
+  <section id="projects">
+    <div class="aboutProjects">
       <h1 class="headings">PROJECTS</h1>
-      <div class="projects"></div>
-    </section>
+      <div class="projectDescription">
+        <div class="projectOne">
+          <h1>Calculator App</h1>
+          <img class="projectsImage" src="img3.jpg" alt="" />
+          <a href="">GitHub</a>
+        </div>
+        <div class="projectTwo"></div>
 
-    <section id="contact">
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <div class="aboutContact">
       <h1 class="headings">CONTACT</h1>
-      <form action="" class="form">
-        <input
-          type="text"
-          name="name"
-          class="input"
-          placeholder="Enter Your Name"
-        />
-        <input
-          type="email"
-          name="email"
-          class="input"
-          placeholder="Enter your Email"
-        />
-        <textarea
-          name="msg"
-          id="msg"
-          cols="30"
-          rows="10"
-          placeholder="Enter Your Message"
-        ></textarea>
-        <input type="submit" value="SEND" id="send" />
-      </form>
-    </section>
+      <div class="contactInfo">
+        <h4><a href="mailto:samangi.perera@gmail.com">samangi.perera@gmail.com</a></h4>
+        <h4>Phone: +47 40561316</h4>
+        <h4><a href="https://www.linkedin.com/in/samangi-perera/">LinkedIn</a></h4>
+      </div>
 
-    <script src="main.js"></script>
-  </body>
+
+    </div>
+
+
+  </section>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
