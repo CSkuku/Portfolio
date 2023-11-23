@@ -301,12 +301,16 @@ color: black;
   background-color: var(--background);
   margin-right: 20px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .projectTwo {
 
-  width: 50%;
+  width: 200px;
   height: 400px;
   background-color: var(--background);
   border-radius: 5px;
